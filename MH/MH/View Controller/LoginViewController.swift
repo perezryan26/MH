@@ -21,7 +21,7 @@ class LoginViewController: UIViewController {
     
     //Sets up the UI elements
     func setUpProperties() {
-        navigationController?.navigationBar.layer.frame.origin.y = 15
+        navigationController?.navigationBar.layer.frame.origin.y = 40
     }
     
     @IBAction func backButtonTapped(_ sender: Any) {

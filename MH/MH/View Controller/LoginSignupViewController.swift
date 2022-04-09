@@ -22,7 +22,7 @@ class LoginSignupViewController: UIViewController {
     
     //Sets up the UI Elements
     func setUpProperties() {
-        mealhelperLabel.setSpacing(space: 1.75)
+        //mealhelperLabel.setSpacing(space: 1.75)
         //let colorOrange =  UIColor(red: 231.0/255.0, green: 122.0/255.0, blue: 4.0/255.0, alpha: 1.0)
         //self.view.backgroundColor = colorOrange
     }

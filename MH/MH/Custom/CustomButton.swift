@@ -28,7 +28,7 @@ class CustomButton: UIButton {
         let colorOrange =  UIColor(red: 251.0/255.0, green: 204.0/255.0, blue: 11.0/255.0, alpha: 1.0).cgColor
         
         layer.backgroundColor = colorOrange
-        layer.cornerRadius = layer.frame.height/3
+        layer.cornerRadius = layer.frame.height/2
         
         //spacing
         let spacing = 1.5

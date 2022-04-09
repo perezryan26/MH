@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11308157280128EA00A7661D /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11308156280128EA00A7661D /* ShadowView.swift */; };
 		1170DDE927F01A4600DCF5B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1170DDE827F01A4600DCF5B1 /* AppDelegate.swift */; };
 		1170DDEB27F01A4600DCF5B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1170DDEA27F01A4600DCF5B1 /* SceneDelegate.swift */; };
 		1170DDF027F01A4600DCF5B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1170DDEE27F01A4600DCF5B1 /* Main.storyboard */; };
@@ -31,9 +32,20 @@
 		1170DE2A27F1521500DCF5B1 /* FavoriteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1170DE2927F1521500DCF5B1 /* FavoriteTableViewController.swift */; };
 		1170DE2C27F1525900DCF5B1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1170DE2B27F1525900DCF5B1 /* ProfileViewController.swift */; };
 		1170DE2E27F1544700DCF5B1 /* BigPictureStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1170DE2D27F1544700DCF5B1 /* BigPictureStoryboard.storyboard */; };
+		11B9FB7B27FE6BDE00EF94FD /* TabBarMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11B9FB7927FE6BDE00EF94FD /* TabBarMenu.storyboard */; };
+		11B9FB7D27FE6DB600EF94FD /* RecipeGeneratorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B9FB7C27FE6DB600EF94FD /* RecipeGeneratorViewController.swift */; };
+		11B9FB8127FE720200EF94FD /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11B9FB7F27FE720200EF94FD /* Home.storyboard */; };
+		11B9FB8427FE741E00EF94FD /* Category.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11B9FB8327FE741E00EF94FD /* Category.storyboard */; };
+		11B9FB8827FE75DC00EF94FD /* Favorites.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11B9FB8627FE75DC00EF94FD /* Favorites.storyboard */; };
+		11B9FB8B27FE768600EF94FD /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11B9FB8A27FE768600EF94FD /* Profile.storyboard */; };
+		11B9FB8E27FE76E100EF94FD /* Generator.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11B9FB8C27FE76E100EF94FD /* Generator.storyboard */; };
+		11B9FB9327FFBB1C00EF94FD /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B9FB9227FFBB1B00EF94FD /* RecipeCell.swift */; };
+		11B9FB9527FFBB5600EF94FD /* RecipeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11B9FB9427FFBB5600EF94FD /* RecipeCell.xib */; };
+		11B9FB9727FFCAC900EF94FD /* sources in Resources */ = {isa = PBXBuildFile; fileRef = 11B9FB9627FFCAC900EF94FD /* sources */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		11308156280128EA00A7661D /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
 		1170DDE527F01A4600DCF5B1 /* MH.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MH.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1170DDE827F01A4600DCF5B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1170DDEA27F01A4600DCF5B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +72,16 @@
 		1170DE2927F1521500DCF5B1 /* FavoriteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteTableViewController.swift; sourceTree = "<group>"; };
 		1170DE2B27F1525900DCF5B1 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		1170DE2D27F1544700DCF5B1 /* BigPictureStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BigPictureStoryboard.storyboard; sourceTree = "<group>"; };
+		11B9FB7A27FE6BDE00EF94FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = MH/Base.lproj/TabBarMenu.storyboard; sourceTree = "<group>"; };
+		11B9FB7C27FE6DB600EF94FD /* RecipeGeneratorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeGeneratorViewController.swift; sourceTree = "<group>"; };
+		11B9FB8027FE720200EF94FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = MH/Storyboard/MH/Base.lproj/Home.storyboard; sourceTree = "<group>"; };
+		11B9FB8327FE741E00EF94FD /* Category.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Category.storyboard; sourceTree = "<group>"; };
+		11B9FB8727FE75DC00EF94FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = MH/Storyboard/MH/Base.lproj/Favorites.storyboard; sourceTree = "<group>"; };
+		11B9FB8A27FE768600EF94FD /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		11B9FB8D27FE76E100EF94FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = MH/Storyboard/MH/Base.lproj/Generator.storyboard; sourceTree = "<group>"; };
+		11B9FB9227FFBB1B00EF94FD /* RecipeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
+		11B9FB9427FFBB5600EF94FD /* RecipeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecipeCell.xib; sourceTree = "<group>"; };
+		11B9FB9627FFCAC900EF94FD /* sources */ = {isa = PBXFileReference; lastKnownFileType = text; path = sources; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +98,7 @@
 		1170DDDC27F01A4600DCF5B1 = {
 			isa = PBXGroup;
 			children = (
+				11B9FB9627FFCAC900EF94FD /* sources */,
 				1170DDE727F01A4600DCF5B1 /* MH */,
 				1170DDE627F01A4600DCF5B1 /* Products */,
 			);
@@ -92,13 +115,19 @@
 		1170DDE727F01A4600DCF5B1 /* MH */ = {
 			isa = PBXGroup;
 			children = (
+				11B9FB9127FF7C7D00EF94FD /* Cells */,
+				11B9FB7E27FE71C300EF94FD /* Storyboard */,
+				11B9FB8227FE73BC00EF94FD /* Home */,
+				11B9FB9027FE772600EF94FD /* Generator */,
+				11B9FB8527FE758100EF94FD /* Categories */,
+				11B9FB8927FE761D00EF94FD /* Favorites */,
+				11B9FB8F27FE771700EF94FD /* Profile */,
 				1170DE1727F13C3B00DCF5B1 /* Icons */,
 				1170DE0E27F10CF200DCF5B1 /* Extensions */,
 				1170DE0727F0F75900DCF5B1 /* Custom */,
 				1170DE0627F0F74900DCF5B1 /* View Controller */,
 				1170DDE827F01A4600DCF5B1 /* AppDelegate.swift */,
 				1170DDEA27F01A4600DCF5B1 /* SceneDelegate.swift */,
-				1170DDEE27F01A4600DCF5B1 /* Main.storyboard */,
 				1170DE2D27F1544700DCF5B1 /* BigPictureStoryboard.storyboard */,
 				1170DDF127F01A4800DCF5B1 /* Assets.xcassets */,
 				1170DDF327F01A4800DCF5B1 /* LaunchScreen.storyboard */,
@@ -113,10 +142,6 @@
 				1170DE0427F0F73200DCF5B1 /* LoginSignupViewController.swift */,
 				1170DE0C27F1015D00DCF5B1 /* LoginViewController.swift */,
 				1170DE1327F1121300DCF5B1 /* SignUpViewController.swift */,
-				1170DE2527F1515B00DCF5B1 /* HomeTableViewController.swift */,
-				1170DE2727F151C000DCF5B1 /* CategoryTableViewController.swift */,
-				1170DE2927F1521500DCF5B1 /* FavoriteTableViewController.swift */,
-				1170DE2B27F1525900DCF5B1 /* ProfileViewController.swift */,
 			);
 			path = "View Controller";
 			sourceTree = "<group>";
@@ -128,6 +153,7 @@
 				1170DE0A27F0FC7F00DCF5B1 /* CustomLabel.swift */,
 				1170DE1127F1105700DCF5B1 /* CustomTextField.swift */,
 				1170DE1527F1370F00DCF5B1 /* CustomNavigationController.swift */,
+				11308156280128EA00A7661D /* ShadowView.swift */,
 			);
 			path = Custom;
 			sourceTree = "<group>";
@@ -159,6 +185,69 @@
 				1170DE2327F14F2D00DCF5B1 /* ic_recipes_grey.png */,
 			);
 			path = "Asset Pack #1";
+			sourceTree = "<group>";
+		};
+		11B9FB7E27FE71C300EF94FD /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				1170DDEE27F01A4600DCF5B1 /* Main.storyboard */,
+				11B9FB7927FE6BDE00EF94FD /* TabBarMenu.storyboard */,
+				11B9FB7F27FE720200EF94FD /* Home.storyboard */,
+				11B9FB8C27FE76E100EF94FD /* Generator.storyboard */,
+				11B9FB8327FE741E00EF94FD /* Category.storyboard */,
+				11B9FB8627FE75DC00EF94FD /* Favorites.storyboard */,
+				11B9FB8A27FE768600EF94FD /* Profile.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		11B9FB8227FE73BC00EF94FD /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1170DE2527F1515B00DCF5B1 /* HomeTableViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		11B9FB8527FE758100EF94FD /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				1170DE2727F151C000DCF5B1 /* CategoryTableViewController.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		11B9FB8927FE761D00EF94FD /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				1170DE2927F1521500DCF5B1 /* FavoriteTableViewController.swift */,
+			);
+			path = Favorites;
+			sourceTree = "<group>";
+		};
+		11B9FB8F27FE771700EF94FD /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				1170DE2B27F1525900DCF5B1 /* ProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		11B9FB9027FE772600EF94FD /* Generator */ = {
+			isa = PBXGroup;
+			children = (
+				11B9FB7C27FE6DB600EF94FD /* RecipeGeneratorViewController.swift */,
+			);
+			path = Generator;
+			sourceTree = "<group>";
+		};
+		11B9FB9127FF7C7D00EF94FD /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				11B9FB9227FFBB1B00EF94FD /* RecipeCell.swift */,
+				11B9FB9427FFBB5600EF94FD /* RecipeCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,15 +309,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				1170DE2227F14F1C00DCF5B1 /* ic_profile_grey.png in Resources */,
+				11B9FB7B27FE6BDE00EF94FD /* TabBarMenu.storyboard in Resources */,
+				11B9FB8E27FE76E100EF94FD /* Generator.storyboard in Resources */,
 				1170DDF527F01A4800DCF5B1 /* LaunchScreen.storyboard in Resources */,
+				11B9FB8127FE720200EF94FD /* Home.storyboard in Resources */,
+				11B9FB8827FE75DC00EF94FD /* Favorites.storyboard in Resources */,
 				1170DDF227F01A4800DCF5B1 /* Assets.xcassets in Resources */,
 				1170DE2427F14F2D00DCF5B1 /* ic_recipes_grey.png in Resources */,
 				1170DE1B27F13C8400DCF5B1 /* ic_notification.png in Resources */,
+				11B9FB9727FFCAC900EF94FD /* sources in Resources */,
 				1170DE2E27F1544700DCF5B1 /* BigPictureStoryboard.storyboard in Resources */,
 				1170DE1E27F14F0400DCF5B1 /* ic_home_grey.png in Resources */,
+				11B9FB8427FE741E00EF94FD /* Category.storyboard in Resources */,
 				1170DE2027F14F1200DCF5B1 /* ic_favorites_grey.png in Resources */,
+				11B9FB8B27FE768600EF94FD /* Profile.storyboard in Resources */,
 				1170DE1927F13C7700DCF5B1 /* ic_arrow_back.png in Resources */,
 				1170DDF027F01A4600DCF5B1 /* Main.storyboard in Resources */,
+				11B9FB9527FFBB5600EF94FD /* RecipeCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +339,8 @@
 				1170DE2A27F1521500DCF5B1 /* FavoriteTableViewController.swift in Sources */,
 				1170DE0D27F1015D00DCF5B1 /* LoginViewController.swift in Sources */,
 				1170DE2627F1515B00DCF5B1 /* HomeTableViewController.swift in Sources */,
+				11B9FB9327FFBB1C00EF94FD /* RecipeCell.swift in Sources */,
+				11B9FB7D27FE6DB600EF94FD /* RecipeGeneratorViewController.swift in Sources */,
 				1170DE0927F0F7BD00DCF5B1 /* CustomButton.swift in Sources */,
 				1170DE2C27F1525900DCF5B1 /* ProfileViewController.swift in Sources */,
 				1170DE1027F10D1C00DCF5B1 /* UIColor+CustomColor.swift in Sources */,
@@ -252,6 +351,7 @@
 				1170DE1427F1121300DCF5B1 /* SignUpViewController.swift in Sources */,
 				1170DE0527F0F73200DCF5B1 /* LoginSignupViewController.swift in Sources */,
 				1170DDEB27F01A4600DCF5B1 /* SceneDelegate.swift in Sources */,
+				11308157280128EA00A7661D /* ShadowView.swift in Sources */,
 				1170DE2827F151C000DCF5B1 /* CategoryTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +373,38 @@
 				1170DDF427F01A4800DCF5B1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		11B9FB7927FE6BDE00EF94FD /* TabBarMenu.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11B9FB7A27FE6BDE00EF94FD /* Base */,
+			);
+			name = TabBarMenu.storyboard;
+			sourceTree = "<group>";
+		};
+		11B9FB7F27FE720200EF94FD /* Home.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11B9FB8027FE720200EF94FD /* Base */,
+			);
+			name = Home.storyboard;
+			sourceTree = "<group>";
+		};
+		11B9FB8627FE75DC00EF94FD /* Favorites.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11B9FB8727FE75DC00EF94FD /* Base */,
+			);
+			name = Favorites.storyboard;
+			sourceTree = "<group>";
+		};
+		11B9FB8C27FE76E100EF94FD /* Generator.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11B9FB8D27FE76E100EF94FD /* Base */,
+			);
+			name = Generator.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
