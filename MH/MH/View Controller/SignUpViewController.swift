@@ -31,6 +31,7 @@ class SignUpViewController: UIViewController {
                 if let error = error {
                     self.displayAlert(withTitle: "Error", message: error.localizedDescription)
                 } else {
+                    self.performSegue(withIdentifier: "signup_success", sender: nil)
                     self.displayAlert(withTitle: "Success", message: "Account has been successfully created")
                     }
                 }

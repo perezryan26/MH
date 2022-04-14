@@ -29,7 +29,14 @@ class HomeTableViewController: UITableViewController {
         self.tableView.register(featureCell, forCellReuseIdentifier: "FeatureCell")
         let headerView = UINib.init(nibName: "HeaderView", bundle: nil)
         self.tableView.register(headerView, forHeaderFooterViewReuseIdentifier: "HeaderView")
+        
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        self.tabBarController?.navigationItem.hidesBackButton = true
+    }
+    
 
     // MARK: - Table view data source
 
