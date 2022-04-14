@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="FeaturedCollectionCell" customModule="MH" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="250" height="120"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ck5-34-zgr" userLabel="Shadow View" customClass="ShadowView" customModule="MH" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="250" height="120"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hAS-eI-fql">
+                            <rect key="frame" x="0.0" y="0.0" width="250" height="120"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pexels-malidate-van-769289" translatesAutoresizingMaskIntoConstraints="NO" id="c9h-Sy-sJD">
+                                    <rect key="frame" x="0.0" y="0.0" width="250" height="120"/>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstItem="c9h-Sy-sJD" firstAttribute="leading" secondItem="hAS-eI-fql" secondAttribute="leading" id="8hZ-c9-YAr"/>
+                                <constraint firstAttribute="trailing" secondItem="c9h-Sy-sJD" secondAttribute="trailing" id="FDo-La-CdR"/>
+                                <constraint firstAttribute="bottom" secondItem="c9h-Sy-sJD" secondAttribute="bottom" id="GQD-i6-HnH"/>
+                                <constraint firstItem="c9h-Sy-sJD" firstAttribute="top" secondItem="hAS-eI-fql" secondAttribute="top" id="qvn-gl-ERU"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="hAS-eI-fql" firstAttribute="leading" secondItem="Ck5-34-zgr" secondAttribute="leading" id="6DO-Ru-Bbj"/>
+                        <constraint firstAttribute="bottom" secondItem="hAS-eI-fql" secondAttribute="bottom" id="Z5s-3i-GNW"/>
+                        <constraint firstAttribute="trailing" secondItem="hAS-eI-fql" secondAttribute="trailing" id="ueK-4V-RBo"/>
+                        <constraint firstItem="hAS-eI-fql" firstAttribute="top" secondItem="Ck5-34-zgr" secondAttribute="top" id="xIg-AV-3wx"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="Ck5-34-zgr" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="5za-fb-4O3"/>
+                <constraint firstItem="Ck5-34-zgr" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="9CO-I4-yrz"/>
+                <constraint firstItem="Ck5-34-zgr" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="FD0-fk-mpp"/>
+                <constraint firstItem="Ck5-34-zgr" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="P1E-eY-gnm"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="137.68115942028987" y="98.4375"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="pexels-malidate-van-769289" width="2048" height="1365"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

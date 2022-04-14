@@ -8,7 +8,9 @@
 import UIKit
 
 class CategoryTableViewController: UITableViewController {
-
+    
+    let items = ["APPETIZER", "BREAKFAST", "DESERT", "BEVERAGES", "MAIN DISHES", "PASTA", "SALAD", "SOUP"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -23,12 +25,25 @@ class CategoryTableViewController: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return items.count
+    }
+    
+    //Asks the data source for a cell to insert in a particular location of the table view
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        //returns a reusable table-view obkect for the specified reuse identifier and adds it to the table
+        let cell = tableView.dequeueReusableCell(withIdentifier: "CategoryCell", for: indexPath) as! CategoryCell
+        cell.categoryLabel.text = items[indexPath.row]
+        return cell
+    }
+    
+    //Asks the delegate for the height to use for a row in a specified location
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 64
     }
 
     /*
