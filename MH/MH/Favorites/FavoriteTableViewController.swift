@@ -9,7 +9,7 @@ import UIKit
 
 class FavoriteTableViewController: UITableViewController {
 
-    let items = ["pasta", "pasta", "pasta", "chicken"]
+    let items = ["Ribs", "Pasta", "Chicken", "Tortellini", "Fajitas"]
     
     
     override func viewDidLoad() {
@@ -21,11 +21,13 @@ class FavoriteTableViewController: UITableViewController {
 
     // MARK: - Table view data source
 
+    //asks the data source to return the number of sections in the table view
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
         return 1
     }
 
+    //used to determine the number of rows in each cell section
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
         return items.count

@@ -9,7 +9,7 @@ import UIKit
 
 class CategoryTableViewController: UITableViewController {
     
-    let items = ["APPETIZER", "BREAKFAST", "DESERT", "BEVERAGES", "MAIN DISHES", "PASTA", "SALAD", "SOUP"]
+    let items = ["APPETIZER", "BREAKFAST", "DESERT", "BEVERAGES", "MAIN DISHES", "PASTA", "SALADS", "SOUP", "MEAT", "VEGAN", "SEAFOOD", "SANDWICHES"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,11 +23,13 @@ class CategoryTableViewController: UITableViewController {
 
     // MARK: - Table view data source
 
+    //asks the data source to return the number of sections in the table view
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 1
+        return 1 //1 of each section so there is no repeats
     }
-
+    
+    //returns the number of categories in the items variable
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
         return items.count

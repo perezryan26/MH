@@ -209,8 +209,8 @@
 				1170DDEE27F01A4600DCF5B1 /* Main.storyboard */,
 				11B9FB7927FE6BDE00EF94FD /* TabBarMenu.storyboard */,
 				11B9FB7F27FE720200EF94FD /* Home.storyboard */,
-				11B9FB8C27FE76E100EF94FD /* Generator.storyboard */,
 				11B9FB8327FE741E00EF94FD /* Category.storyboard */,
+				11B9FB8C27FE76E100EF94FD /* Generator.storyboard */,
 				11B9FB8627FE75DC00EF94FD /* Favorites.storyboard */,
 				11B9FB8A27FE768600EF94FD /* Profile.storyboard */,
 			);

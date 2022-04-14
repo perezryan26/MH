@@ -27,5 +27,20 @@ class SignUpViewController: UIViewController {
     override var prefersStatusBarHidden: Bool {
         return true
     }
-
+    
+    //allows you to close keyboard from name text field
+    @IBAction func NameDone(_ sender: CustomTextField) {
+        sender.resignFirstResponder()
+    }
+    
+    //allows you to close keyboard from email text field
+    @IBAction func EmailDone(_ sender: CustomTextField) {
+        sender.resignFirstResponder()
+    }
+    
+    //allows you to close keyboard from passowrd text field
+    @IBAction func PasswordDone(_ sender: CustomTextField) {
+        sender.resignFirstResponder()
+    }
+    
 }

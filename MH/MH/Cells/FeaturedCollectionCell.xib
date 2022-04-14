@@ -20,7 +20,7 @@
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hAS-eI-fql">
                             <rect key="frame" x="0.0" y="0.0" width="250" height="120"/>
                             <subviews>
-                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pexels-malidate-van-769289" translatesAutoresizingMaskIntoConstraints="NO" id="c9h-Sy-sJD">
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lasagna" translatesAutoresizingMaskIntoConstraints="NO" id="c9h-Sy-sJD">
                                     <rect key="frame" x="0.0" y="0.0" width="250" height="120"/>
                                 </imageView>
                             </subviews>
@@ -57,7 +57,7 @@
         </view>
     </objects>
     <resources>
-        <image name="pexels-malidate-van-769289" width="2048" height="1365"/>
+        <image name="lasagna" width="2560" height="1538"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

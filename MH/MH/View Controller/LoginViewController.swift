@@ -7,7 +7,7 @@
 
 import UIKit
 
-class LoginViewController: UIViewController {
+class LoginViewController: UIViewController, UITextFieldDelegate {
     
     //UI View Properties
     @IBOutlet weak var emailTextField: UITextField!
@@ -33,6 +33,15 @@ class LoginViewController: UIViewController {
         return true
     }
     
+    //hit control k if the keyboard isn't popping up
+    //allows you to close keyboard from email text field
+    @IBAction func Done(_ sender: CustomTextField) {
+        sender.resignFirstResponder()
+    }
     
-
+    //allows you to close keyboard from password text field
+    @IBAction func Done2(_ sender: CustomTextField) {
+        sender.resignFirstResponder()
+    }
+    
 }
