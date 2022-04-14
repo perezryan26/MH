@@ -67,25 +67,25 @@
             <objects>
                 <viewController id="mbD-ky-e11" customClass="LoginViewController" customModule="MH" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="c0s-Y5-Zj7">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="LOG IN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qxq-YJ-GGd" customClass="CustomLabel" customModule="MH" customModuleProvider="target">
-                                <rect key="frame" x="51" y="227" width="312" height="48"/>
+                                <rect key="frame" x="51" y="213" width="312" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome Back" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jib-6M-H49" customClass="CustomLabel" customModule="MH" customModuleProvider="target">
-                                <rect key="frame" x="51" y="280" width="312" height="24"/>
+                                <rect key="frame" x="51" y="263" width="312" height="23"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" red="0.57045853140000002" green="0.57047235969999999" blue="0.57046490910000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="X8z-fa-GzR" customClass="CustomTextField" customModule="MH" customModuleProvider="target">
-                                <rect key="frame" x="35" y="486" width="344" height="60"/>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="X8z-fa-GzR" customClass="CustomTextField" customModule="MH" customModuleProvider="target">
+                                <rect key="frame" x="35" y="457" width="344" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -94,7 +94,7 @@
                                 </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VIb-cy-JDW" customClass="CustomTextField" customModule="MH" customModuleProvider="target">
-                                <rect key="frame" x="35" y="563" width="344" height="60"/>
+                                <rect key="frame" x="35" y="529" width="344" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -103,7 +103,7 @@
                                 </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6vh-qw-6L1" customClass="CustomButton" customModule="MH" customModuleProvider="target">
-                                <rect key="frame" x="35" y="658" width="344" height="60"/>
+                                <rect key="frame" x="35" y="618" width="344" height="57"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.9608986974" green="0.83276003600000004" blue="0.28608387709999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -111,11 +111,11 @@
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="u4E-iP-4ga" kind="presentation" modalPresentationStyle="fullScreen" id="WOk-o2-o9M"/>
+                                    <action selector="login:" destination="mbD-ky-e11" eventType="touchUpInside" id="dJZ-wc-m2e"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Forgot your password?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4k6-XM-gmk" customClass="CustomLabel" customModule="MH" customModuleProvider="target">
-                                <rect key="frame" x="35" y="730" width="344" height="24"/>
+                                <rect key="frame" x="35" y="686" width="344" height="23"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" red="0.57045853140000002" green="0.57047235969999999" blue="0.57046490910000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -136,6 +136,7 @@
                     <connections>
                         <outlet property="emailTextField" destination="X8z-fa-GzR" id="yQR-78-IW6"/>
                         <outlet property="passwordTextField" destination="VIb-cy-JDW" id="TLj-5Z-6YS"/>
+                        <segue destination="u4E-iP-4ga" kind="show" identifier="login_success" id="Vek-Ia-RnS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="A4P-jg-zzZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -147,25 +148,25 @@
             <objects>
                 <viewController id="0Pd-O0-xbR" customClass="SignUpViewController" customModule="MH" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4ZA-oZ-Shg">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SIGN UP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nY4-zv-fQH" customClass="CustomLabel" customModule="MH" customModuleProvider="target">
-                                <rect key="frame" x="51" y="227" width="312" height="48"/>
+                                <rect key="frame" x="50" y="211" width="313" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lovely to meet you" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PYZ-uC-jHU" customClass="CustomLabel" customModule="MH" customModuleProvider="target">
-                                <rect key="frame" x="51" y="280" width="312" height="24"/>
+                                <rect key="frame" x="50" y="261" width="313" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" red="0.57045853140000002" green="0.57047235969999999" blue="0.57046490910000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gI2-Sc-EaY" customClass="CustomTextField" customModule="MH" customModuleProvider="target">
-                                <rect key="frame" x="35" y="486" width="344" height="60"/>
+                                <rect key="frame" x="34" y="456" width="344" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -174,7 +175,7 @@
                                 </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="G6W-5f-rfx" customClass="CustomTextField" customModule="MH" customModuleProvider="target">
-                                <rect key="frame" x="35" y="563" width="344" height="60"/>
+                                <rect key="frame" x="34" y="528" width="344" height="57"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -182,8 +183,8 @@
                                     <action selector="PasswordDone:" destination="0Pd-O0-xbR" eventType="primaryActionTriggered" id="Ycf-F7-ZpK"/>
                                 </connections>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Sb8-ZM-sOf" customClass="CustomTextField" customModule="MH" customModuleProvider="target">
-                                <rect key="frame" x="35" y="409" width="344" height="60"/>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Sb8-ZM-sOf" customClass="CustomTextField" customModule="MH" customModuleProvider="target">
+                                <rect key="frame" x="34" y="385" width="344" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -192,7 +193,7 @@
                                 </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oeI-wi-Lfd" customClass="CustomButton" customModule="MH" customModuleProvider="target">
-                                <rect key="frame" x="35" y="658" width="344" height="60"/>
+                                <rect key="frame" x="34" y="617" width="344" height="57"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.9608986974" green="0.83276003600000004" blue="0.28608387709999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -200,7 +201,8 @@
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="u4E-iP-4ga" kind="presentation" modalPresentationStyle="fullScreen" id="oA5-Ub-GXx"/>
+                                    <action selector="signup:" destination="0Pd-O0-xbR" eventType="touchUpInside" id="Err-XI-wC9"/>
+                                    <segue destination="S0Q-mw-XtZ" kind="presentation" modalPresentationStyle="fullScreen" id="LWq-ER-QIA"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -215,6 +217,11 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="EmailTextField" destination="gI2-Sc-EaY" id="Hq9-1R-2Sn"/>
+                        <outlet property="NameTextField" destination="Sb8-ZM-sOf" id="3HJ-hk-4OP"/>
+                        <outlet property="PasswordTextField" destination="G6W-5f-rfx" id="jOt-j4-aeH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cre-WU-Q85" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -223,7 +230,7 @@
         <!--Custom Navigation Controller-->
         <scene sceneID="RK6-Zw-4B0">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="cdp-mP-Lha" customClass="CustomNavigationController" customModule="MH" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="LoginNavigationController" automaticallyAdjustsScrollViewInsets="NO" id="cdp-mP-Lha" customClass="CustomNavigationController" customModule="MH" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="mM7-9X-4fm">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -241,14 +248,16 @@
         <!--TabBarSection-->
         <scene sceneID="4R5-ve-Ib1">
             <objects>
-                <viewControllerPlaceholder storyboardName="TabBarMenu" referencedIdentifier="TabBarSection" id="u4E-iP-4ga" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardName="TabBarMenu" referencedIdentifier="TabBarSection" id="u4E-iP-4ga" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="g2E-Ac-TbK"/>
+                </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vIe-mc-BMt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1899" y="997"/>
+            <point key="canvasLocation" x="1904" y="529"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="oA5-Ub-GXx"/>
+        <segue reference="LWq-ER-QIA"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="ic_arrow_back" width="24" height="24"/>

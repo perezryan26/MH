@@ -6,12 +6,13 @@
 //
 
 import UIKit
+import Parse
 
 class LoginViewController: UIViewController, UITextFieldDelegate {
     
     //UI View Properties
-    @IBOutlet weak var emailTextField: UITextField!
-    @IBOutlet weak var passwordTextField: UITextField!
+    @IBOutlet weak var emailTextField: CustomTextField!
+    @IBOutlet weak var passwordTextField: CustomTextField!
     
     //First Load function
     override func viewDidLoad() {
@@ -44,4 +45,23 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
         sender.resignFirstResponder()
     }
     
+    @IBAction func login(_ sender: Any) {
+        PFUser.logInWithUsername(inBackground: self.emailTextField.text!, password: self.passwordTextField.text!) {
+                  (user: PFUser?, error: Error?) -> Void in
+                  if user != nil {
+                    self.performSegue(withIdentifier: "login_success", sender: nil)
+                    self.displayAlert(withTitle: "Login Successful", message: "")
+                    
+                  } else {
+                    self.displayAlert(withTitle: "Error", message: error!.localizedDescription)
+                  }
+        }
+    }
+    
+    func displayAlert(withTitle title: String, message: String) {
+           let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
+           let okAction = UIAlertAction(title: "Ok", style: .default)
+           alert.addAction(okAction)
+           self.present(alert, animated: true)
+       }
 }

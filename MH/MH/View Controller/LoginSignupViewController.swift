@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Parse
 
 class LoginSignupViewController: UIViewController {
     //UI View Properties
@@ -17,8 +18,21 @@ class LoginSignupViewController: UIViewController {
     //First loading function
     override func viewDidLoad() {
         super.viewDidLoad()
+        testParseConnection()
         setUpProperties()
     }
+    
+    func testParseConnection(){
+            let myObj = PFObject(className:"FirstClass")
+            myObj["message"] = "Hey ! First message from Swift. Parse is now connected"
+            myObj.saveInBackground { (success, error) in
+                if(success){
+                    print("You are connected!")
+                }else{
+                    print("An error has occurred!")
+                }
+            }
+        }
     
     //Sets up the UI Elements
     func setUpProperties() {
