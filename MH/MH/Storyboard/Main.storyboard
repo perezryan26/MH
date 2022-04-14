@@ -91,6 +91,7 @@
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
                                     <action selector="Done:" destination="mbD-ky-e11" eventType="primaryActionTriggered" id="KMe-I3-t39"/>
+                                    <action selector="sample:" destination="mbD-ky-e11" eventType="editingDidEnd" id="qBq-FL-zF0"/>
                                 </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VIb-cy-JDW" customClass="CustomTextField" customModule="MH" customModuleProvider="target">
