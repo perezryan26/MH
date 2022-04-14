@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		11308157280128EA00A7661D /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11308156280128EA00A7661D /* ShadowView.swift */; };
+		113081592802482900A7661D /* FeatureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113081582802482900A7661D /* FeatureCell.swift */; };
+		1130815B280248F800A7661D /* FeatureCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1130815A280248F800A7661D /* FeatureCell.xib */; };
+		1130815D2802552400A7661D /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1130815C2802552400A7661D /* HeaderView.swift */; };
+		1130815F2802554600A7661D /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1130815E2802554600A7661D /* HeaderView.xib */; };
 		1170DDE927F01A4600DCF5B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1170DDE827F01A4600DCF5B1 /* AppDelegate.swift */; };
 		1170DDEB27F01A4600DCF5B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1170DDEA27F01A4600DCF5B1 /* SceneDelegate.swift */; };
 		1170DDF027F01A4600DCF5B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1170DDEE27F01A4600DCF5B1 /* Main.storyboard */; };
@@ -46,6 +50,10 @@
 
 /* Begin PBXFileReference section */
 		11308156280128EA00A7661D /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
+		113081582802482900A7661D /* FeatureCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCell.swift; sourceTree = "<group>"; };
+		1130815A280248F800A7661D /* FeatureCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeatureCell.xib; sourceTree = "<group>"; };
+		1130815C2802552400A7661D /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		1130815E2802554600A7661D /* HeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
 		1170DDE527F01A4600DCF5B1 /* MH.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MH.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1170DDE827F01A4600DCF5B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1170DDEA27F01A4600DCF5B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -246,6 +254,10 @@
 			children = (
 				11B9FB9227FFBB1B00EF94FD /* RecipeCell.swift */,
 				11B9FB9427FFBB5600EF94FD /* RecipeCell.xib */,
+				113081582802482900A7661D /* FeatureCell.swift */,
+				1130815A280248F800A7661D /* FeatureCell.xib */,
+				1130815C2802552400A7661D /* HeaderView.swift */,
+				1130815E2802554600A7661D /* HeaderView.xib */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -316,8 +328,10 @@
 				11B9FB8827FE75DC00EF94FD /* Favorites.storyboard in Resources */,
 				1170DDF227F01A4800DCF5B1 /* Assets.xcassets in Resources */,
 				1170DE2427F14F2D00DCF5B1 /* ic_recipes_grey.png in Resources */,
+				1130815B280248F800A7661D /* FeatureCell.xib in Resources */,
 				1170DE1B27F13C8400DCF5B1 /* ic_notification.png in Resources */,
 				11B9FB9727FFCAC900EF94FD /* sources in Resources */,
+				1130815F2802554600A7661D /* HeaderView.xib in Resources */,
 				1170DE2E27F1544700DCF5B1 /* BigPictureStoryboard.storyboard in Resources */,
 				1170DE1E27F14F0400DCF5B1 /* ic_home_grey.png in Resources */,
 				11B9FB8427FE741E00EF94FD /* Category.storyboard in Resources */,
@@ -338,9 +352,11 @@
 			files = (
 				1170DE2A27F1521500DCF5B1 /* FavoriteTableViewController.swift in Sources */,
 				1170DE0D27F1015D00DCF5B1 /* LoginViewController.swift in Sources */,
+				113081592802482900A7661D /* FeatureCell.swift in Sources */,
 				1170DE2627F1515B00DCF5B1 /* HomeTableViewController.swift in Sources */,
 				11B9FB9327FFBB1C00EF94FD /* RecipeCell.swift in Sources */,
 				11B9FB7D27FE6DB600EF94FD /* RecipeGeneratorViewController.swift in Sources */,
+				1130815D2802552400A7661D /* HeaderView.swift in Sources */,
 				1170DE0927F0F7BD00DCF5B1 /* CustomButton.swift in Sources */,
 				1170DE2C27F1525900DCF5B1 /* ProfileViewController.swift in Sources */,
 				1170DE1027F10D1C00DCF5B1 /* UIColor+CustomColor.swift in Sources */,
